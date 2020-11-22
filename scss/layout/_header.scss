@@ -1,0 +1,13 @@
+.header {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+
+    .header_content {
+        padding: 50px;
+        background-color: #fafafa;
+
+        @media screen and (min-width: 992px) {
+            padding: 50px 200px;
+        }
+    }
+}

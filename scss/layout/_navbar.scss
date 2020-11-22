@@ -1,0 +1,25 @@
+.navbar {
+    background-color: white;
+    
+    .navbar-brand {
+        font-size: 2rem;
+        font-family: 'Saira Extra Condensed', sans-serif !important;
+        text-transform: uppercase;
+
+        @media screen and (min-width: 992px) {
+            padding-left: 180px;
+        }
+    }
+
+    .navbar-nav {
+        @media screen and (min-width: 992px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .active {
+        font-weight: bold;
+    }
+
+}
